@@ -514,7 +514,7 @@ a dedicated database.
 If you use this pipeline or its data products, please cite the discharge
 reconstruction it builds on, and acknowledge the software.
 
-**Reconstruction (data and method).** Stachnik, A. (2026). Machine learning
+**Reconstruction (data and method).** Stachnik, A. et al (2026). Machine learning
 reconstruction and forecasting of a karst tributary in Milandre Cave, Swiss
 Jura. *Hydrology and Earth System Sciences* (HESS), under review. A DOI will be
 added on publication.
