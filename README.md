@@ -40,7 +40,7 @@ The project is operational. It runs unattended on a virtual machine under
 ## Table of contents
 
 1. [What it does](#what-it-does)
-2. [API integrations](#api-integrations) (the core of the project)
+2. [API integrations](#api-integrations)
    - [1. BAFU hydrological data](#1-bafu-hydrological-data-hydrodaten)
    - [2. MeteoSwiss open data (OGD STAC)](#2-meteoswiss-open-data-ogd-stac)
    - [3. Website publication over SFTP](#3-website-publication-over-sftp-series)
@@ -95,8 +95,7 @@ A second weekly service keeps a small rotation of compressed backups.
 
 ## API integrations
 
-This is the heart of the project. Four distinct external systems are integrated,
-each with its own protocol, authentication model and failure modes. The code
+Four distinct external systems are integrated, each with its own protocol, authentication model and failure modes. The code
 keeps every integration in its own module so each can be tested and replaced in
 isolation.
 
