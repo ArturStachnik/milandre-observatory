@@ -1,0 +1,9 @@
+[Unit]
+Description=Milamont observatory weekly backup
+
+[Service]
+Type=oneshot
+User=ubuntu
+WorkingDirectory=/home/ubuntu/observatory
+Environment=MILAMONT_OBS_DATA=/home/ubuntu/observatory/data
+ExecStart=/home/ubuntu/micromamba/envs/switzerland/bin/python backup_rotate.py

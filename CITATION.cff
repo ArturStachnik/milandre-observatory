@@ -1,0 +1,21 @@
+# Add 'repository-code:' and 'url:' with the GitHub URL once the repo is published.
+# When the HESS paper is published, add its 'doi:' under preferred-citation.
+cff-version: 1.2.0
+message: "If you use this software or its data products, please cite the reconstruction paper and the software as below."
+title: "Milandre / Milamont observatory"
+abstract: "Automated daily pipeline that retrieves BAFU and MeteoSwiss data for the Milamont karst tributary of the Milandre system, merges it with the long-term reconstruction, and publishes to the laboratory website and the ISSKA Baserow database."
+type: software
+authors:
+  - family-names: Stachnik
+    given-names: Artur
+    affiliation: "ISSKA (Swiss Institute for Speleology and Karst Studies)"
+date-released: "2026-06-30"
+preferred-citation:
+  type: article
+  title: "Machine learning reconstruction and forecasting of a karst tributary in Milandre Cave, Swiss Jura"
+  authors:
+    - family-names: Stachnik
+      given-names: Artur
+  journal: "Hydrology and Earth System Sciences (HESS)"
+  year: 2026
+  notes: "Under review. DOI to be added on publication."

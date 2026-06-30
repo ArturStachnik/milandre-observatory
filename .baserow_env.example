@@ -1,0 +1,11 @@
+# Copy to .baserow_env and fill in. The .baserow_env file is gitignored.
+# Token needs create + read + update on the base (delete NOT required).
+BASEROW_API_URL=https://api.baserow.io
+BASEROW_TOKEN=your_baserow_token_here
+BASEROW_TABLE_ID=952279
+# One row per file, both linked by hand to the same datalogger (VM_MILAMONT):
+BASEROW_ROW_ID_HOURLY=364
+BASEROW_ROW_ID_5MIN=REPLACE_WITH_NEW_ROW_ID
+BASEROW_FILE_FIELD=Fichier de données
+BASEROW_START_FIELD=Date debut
+BASEROW_END_FIELD=Date fin

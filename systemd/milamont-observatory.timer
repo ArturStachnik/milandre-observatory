@@ -1,0 +1,9 @@
+[Unit]
+Description=Run the Milamont observatory build once a day
+
+[Timer]
+OnCalendar=*-*-* 06:15:00 UTC
+Persistent=true
+
+[Install]
+WantedBy=timers.target

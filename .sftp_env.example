@@ -1,0 +1,9 @@
+# Copy to .sftp_env and fill in. The .sftp_env file is gitignored.
+SFTP_HOST=ops.ftp.infomaniak.com
+SFTP_PORT=22
+SFTP_USER=ops_artur
+SFTP_PASS=your_password_here
+# or use a key instead of a password:
+# SFTP_KEY=/home/ubuntu/.ssh/id_rsa
+# Website folder the /series viewer reads from:
+SFTP_REMOTE_DIR=/home/clients/REPLACE_ID/milab/images/series

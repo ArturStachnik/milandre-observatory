@@ -1,0 +1,15 @@
+# data stays on the VM, never in git history
+data/
+*.csv
+*.csv.gz
+*.tmp
+# python
+__pycache__/
+*.pyc
+.venv/
+
+# SFTP credentials
+.sftp_env
+
+# Baserow credentials
+.baserow_env

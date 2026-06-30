@@ -1,0 +1,14 @@
+[Unit]
+Description=Milamont observatory daily build + /series publish + Baserow push
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+User=ubuntu
+WorkingDirectory=/home/ubuntu/observatory
+Environment=MILAMONT_OBS_DATA=/home/ubuntu/observatory/data
+ExecStart=/home/ubuntu/micromamba/envs/switzerland/bin/python build_observatory.py
+ExecStart=/home/ubuntu/micromamba/envs/switzerland/bin/python export_series.py
+ExecStart=/home/ubuntu/micromamba/envs/switzerland/bin/python publish_series.py
+ExecStart=/home/ubuntu/micromamba/envs/switzerland/bin/python baserow_push.py
